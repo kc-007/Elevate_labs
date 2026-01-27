@@ -1,1 +1,50 @@
+Task 4: Password Security & Authentication Analysis
+--------------------------------------------------
 
+Objective:
+The objective of this task is to understand how passwords are stored, attacked, and protected in real-world systems. The task focuses on password hashing, common password attacks, and modern authentication mechanisms such as Multi-Factor Authentication (MFA).
+
+Passwords are one of the most common authentication methods. Weak password practices often lead to data breaches, making password security a critical part of cybersecurity.
+
+Password Storage:
+
+Passwords should never be stored in plain text. Instead, they are stored using hashing algorithms.
+
+Hashing vs Encryption:
+Hashing is a one-way process that converts a password into a fixed-length value. It cannot be reversed.
+Encryption is a two-way process where data can be decrypted using a key.
+
+Because hashing is irreversible, it is preferred for storing passwords.
+
+Common Hash Types:
+
+1. MD5
+MD5 is a fast hashing algorithm but is considered insecure due to collisions and fast cracking speeds.
+
+2. SHA-1
+SHA-1 is stronger than MD5 but is also deprecated due to known weaknesses.
+
+3. bcrypt
+bcrypt is a secure hashing algorithm designed specifically for password storage. It is slow and includes salting, making it resistant to brute-force attacks.
+
+Password Attacks:
+
+Brute Force Attack:
+In a brute force attack, attackers try all possible password combinations until the correct one is found.
+
+Dictionary Attack:
+In a dictionary attack, attackers use a predefined list of common passwords to crack hashes faster.
+
+Weak Passwords:
+Weak passwords fail because they are short, predictable, reused, or based on common words.
+
+Multi-Factor Authentication (MFA):
+MFA adds an extra layer of security by requiring more than one authentication factor, such as a password and a one-time code.
+
+Importance of Strong Authentication:
+Strong authentication reduces the risk of account compromise, even if passwords are leaked.
+
+Conclusion:
+Understanding how passwords are attacked and protected helps in designing secure authentication systems. Strong hashing algorithms, strong passwords, and MFA together form an effective defense against password-based attacks.
+
+End of Task 4 Explanation
