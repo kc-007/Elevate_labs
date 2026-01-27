@@ -1,7 +1,3 @@
-# Task 7 – Web Application Vulnerability Testing (Execution)
-
----
-
 ## 📌 Overview
 
 This document explains how I completed **Task 7** of the Cyber Security Internship by performing basic web application vulnerability testing using a vulnerable application and security testing tools.
@@ -96,12 +92,3 @@ Suggested fixes included:
 - How attackers exploit insecure inputs
 - Importance of secure coding practices
 
----
-
-## 🏁 Conclusion
-
-This task helped me gain hands-on experience in web application security testing. It improved my understanding of OWASP Top 10 vulnerabilities and strengthened my ability to analyze and report security issues in web applications.
-
----
-
-⭐ Task 7 Completed – Web Application Vulnerability Testing
