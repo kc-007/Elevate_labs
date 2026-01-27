@@ -1,0 +1,37 @@
+Task 3: Networking Basics for Cyber Security
+-------------------------------------------
+
+Objective:
+The objective of this task is to understand basic networking concepts that are essential for cybersecurity and to learn how network traffic can be captured and analyzed using packet sniffing tools.
+
+Networking forms the backbone of all digital communication. From a cybersecurity perspective, understanding how data travels across networks helps in detecting attacks, analyzing suspicious behavior, and investigating security incidents.
+
+Key Networking Concepts:
+
+1. IP Address
+An IP address uniquely identifies a device on a network. It is used to route data packets from the source to the destination.
+
+2. MAC Address
+A MAC address is a hardware identifier assigned to network interfaces. It operates at the data link layer and is used within local networks.
+
+3. TCP (Transmission Control Protocol)
+TCP is a connection-oriented protocol that ensures reliable data delivery. It uses a three-way handshake (SYN, SYN-ACK, ACK) to establish a connection.
+
+4. UDP (User Datagram Protocol)
+UDP is a connectionless protocol. It is faster but does not guarantee delivery, order, or error checking.
+
+5. DNS (Domain Name System)
+DNS translates human-readable domain names into IP addresses. DNS queries can reveal which websites a device is trying to access.
+
+Packet Sniffing:
+Packet sniffing is the process of capturing and analyzing network packets. Security analysts use packet sniffing to monitor traffic, detect anomalies, and investigate attacks.
+
+Plain-text vs Encrypted Traffic:
+Plain-text traffic (e.g., HTTP) can be read directly by attackers, while encrypted traffic (HTTPS) protects data using encryption, making it difficult to intercept or modify.
+
+Why HTTPS is More Secure:
+HTTPS uses encryption (TLS) to protect data in transit, ensuring confidentiality and integrity.
+
+Conclusion:
+Understanding networking basics and packet analysis is crucial for cybersecurity professionals. It helps in identifying malicious traffic, understanding attack techniques, and securing networks effectively.
+
