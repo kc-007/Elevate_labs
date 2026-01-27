@@ -1,0 +1,51 @@
+Task 5: Malware Types & Behavior Analysis (Basic)
+------------------------------------------------
+
+Objective:
+The objective of this task is to understand different types of malware, how they behave, how they spread, and how they are detected using online malware analysis platforms such as VirusTotal.
+
+Malware is one of the most common cyber threats and is used to disrupt systems, steal data, gain unauthorized access, or demand ransom. Understanding malware behavior is essential for detection, prevention, and incident response.
+
+Types of Malware:
+
+1. Virus
+A virus attaches itself to legitimate files or programs and spreads when the infected file is executed. It requires user interaction to spread.
+
+2. Worm
+A worm is a standalone malware that can self-replicate and spread across networks without user interaction. Worms exploit vulnerabilities in systems.
+
+3. Trojan
+A trojan disguises itself as a legitimate application to trick users into installing it. Once installed, it can steal data, install backdoors, or download additional malware.
+
+4. Ransomware
+Ransomware encrypts files or locks systems and demands payment to restore access. It is one of the most damaging forms of malware.
+
+Malware Behavior Indicators:
+Malware often shows suspicious behavior such as:
+- Creating or modifying files
+- Connecting to unknown external servers
+- Running hidden background processes
+- Modifying system settings or registry keys
+
+Malware Lifecycle:
+The malware lifecycle includes:
+- Delivery
+- Execution
+- Persistence
+- Command and control
+- Data exfiltration or damage
+
+Malware Spread Methods:
+- Phishing emails
+- Malicious downloads
+- Infected USB devices
+- Exploiting unpatched vulnerabilities
+
+Malware Prevention:
+- Using updated antivirus solutions
+- Keeping systems patched
+- Avoiding suspicious links and downloads
+- Using least privilege
+- Enabling security monitoring
+
+
