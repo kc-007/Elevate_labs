@@ -1,0 +1,40 @@
+Task 8: SQL Injection Practical Exploitation
+-------------------------------------------
+
+Objective:
+The objective of this task is to understand SQL Injection vulnerabilities in web applications and learn how insecure input handling can lead to unauthorized database access. The task focuses on identifying injectable parameters, understanding the impact of SQL Injection, and learning how such attacks are prevented.
+
+SQL Injection is one of the most critical web application vulnerabilities and is listed in the OWASP Top 10. It occurs when user input is improperly handled and directly used in database queries.
+
+What is SQL Injection:
+SQL Injection is a vulnerability that allows attackers to interfere with database queries by injecting malicious SQL statements through user input fields. This can lead to unauthorized access to databases.
+
+Types of SQL Injection:
+1. In-band SQL Injection – Uses the same channel for injection and data retrieval.
+2. Blind SQL Injection – Data is inferred based on application behavior.
+3. Out-of-band SQL Injection – Uses a different channel to retrieve data.
+
+Impact of SQL Injection:
+- Disclosure of sensitive data
+- Unauthorized access to user credentials
+- Modification or deletion of database records
+- Complete compromise of the application database
+
+Automated SQL Injection Tools:
+Tools like SQLMap automate the detection and exploitation of SQL Injection vulnerabilities. They help security testers understand the severity of vulnerable parameters.
+
+Attack Flow:
+- Identify vulnerable input
+- Confirm SQL Injection vulnerability
+- Enumerate database structure
+- Extract sensitive information
+
+Prevention Methods:
+- Use prepared statements and parameterized queries
+- Input validation and sanitization
+- Least privilege database accounts
+- Web application firewalls (WAF)
+- Secure coding practices
+
+Conclusion:
+Understanding SQL Injection helps developers and security professionals protect databases from unauthorized access. Proper validation, secure query handling, and regular testing are essential to prevent SQL Injection attacks.
