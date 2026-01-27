@@ -1,0 +1,41 @@
+Task 6: Introduction to Cryptography
+-----------------------------------
+
+Objective:
+The objective of this task is to understand the fundamentals of cryptography, including encryption, hashing, key generation, and digital signatures. Cryptography is a core security mechanism used to protect data confidentiality, integrity, and authenticity.
+
+Cryptography is widely used in real-world technologies such as HTTPS, VPNs, secure file storage, and authentication systems.
+
+Encryption:
+Encryption is the process of converting readable data (plaintext) into unreadable data (ciphertext) to protect it from unauthorized access.
+
+There are two main types of encryption:
+
+1. Symmetric Encryption
+Symmetric encryption uses the same key for both encryption and decryption. It is fast and efficient, making it suitable for encrypting large amounts of data.
+Example: AES (Advanced Encryption Standard)
+
+2. Asymmetric Encryption
+Asymmetric encryption uses a pair of keys: a public key and a private key. Data encrypted with one key can only be decrypted with the other.
+Example: RSA
+
+Hashing:
+Hashing is a one-way cryptographic function that converts data into a fixed-length hash value. Hashing is used to verify data integrity and is not reversible.
+
+Digital Signatures:
+Digital signatures use asymmetric cryptography to verify the authenticity and integrity of data. They ensure that the data has not been altered and confirm the identity of the sender.
+
+Comparison of Encryption Algorithms:
+- Symmetric encryption is faster but requires secure key sharing.
+- Asymmetric encryption is more secure for key exchange but slower.
+
+Real-World Usage of Cryptography:
+- HTTPS secures web communication
+- VPNs protect network traffic
+- Hashing ensures file integrity
+- Digital signatures verify software and documents
+
+Conclusion:
+Cryptography is essential for securing modern digital systems. Understanding encryption, hashing, and key management helps in protecting sensitive information and ensuring secure communication.
+
+
