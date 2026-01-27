@@ -1,1 +1,104 @@
+## 📌 Task Objective
+
+The objective of this task is to understand **Operating System (OS) level security fundamentals** in both Linux and Windows environments. This includes user access control, file permissions, privilege management, firewall configuration, process monitoring, and OS hardening techniques.
+
+This task focuses on reducing the attack surface at the operating system level and applying security best practices to strengthen system defenses.
+
+---
+
+## 🖥️ Operating System Security
+
+Operating System security involves protecting the OS from unauthorized access, misuse, and exploitation. Since the OS manages hardware, users, files, and processes, compromising it can lead to full system control by an attacker.
+
+---
+
+## 🔐 User Accounts and Access Control
+
+Operating systems use user accounts and permissions to restrict access.
+
+- **Standard Users:** Limited privileges, used for daily activities
+- **Administrator / Root:** Full control over the system
+
+Access control ensures users can only perform actions required for their role.
+
+---
+
+## 📂 File Permissions (Linux)
+
+Linux uses file permissions to control access:
+
+- **Read (r)** – view file contents
+- **Write (w)** – modify files
+- **Execute (x)** – run files
+
+Permissions are applied to:
+- Owner
+- Group
+- Others
+
+Commands commonly used:
+- `ls -l` → view permissions
+- `chmod` → change permissions
+- `chown` → change ownership
+
+---
+
+## 👑 Administrator vs Standard User
+
+- **Root / Administrator**
+  - Full system access
+  - Can install software, modify system files
+- **Normal User**
+  - Limited access
+  - Cannot make critical system changes
+
+Using normal users reduces the risk of accidental or malicious damage.
+
+---
+
+## 🔥 Firewall Configuration
+
+Firewalls control incoming and outgoing network traffic.
+
+- **Linux:** UFW (Uncomplicated Firewall)
+- **Windows:** Windows Defender Firewall
+
+Firewalls help prevent unauthorized network access and reduce exposure to attacks.
+
+---
+
+## ⚙️ Processes and Services
+
+Processes and services run in the background to support system functionality.  
+However, unnecessary services increase the attack surface.
+
+Disabling unused services improves:
+- Security
+- Performance
+- System stability
+
+---
+
+## 🛡️ OS Hardening
+
+OS hardening is the process of securing an operating system by:
+- Removing unnecessary services
+- Applying least privilege
+- Enforcing strong permissions
+- Enabling firewalls
+- Keeping systems updated
+
+---
+
+## 🔑 Least Privilege Principle
+
+Users and services should only have the **minimum permissions required** to perform their tasks.  
+This limits damage if an account or service is compromised.
+
+---
+
+## ✅ Conclusion
+
+Understanding OS security fundamentals is critical for defending systems against attacks. By controlling access, managing permissions, monitoring processes, and applying hardening practices, operating systems can be made significantly more secure.
+
 
