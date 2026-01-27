@@ -1,1 +1,157 @@
+1. Introduction to Cyber Security
 
+Cyber Security is the practice of protecting systems, networks, applications, and data from digital attacks. These attacks aim to gain unauthorized access, disrupt services, steal sensitive data, or manipulate information. As organizations increasingly rely on digital infrastructure, cybersecurity plays a critical role in ensuring trust, safety, and business continuity.
+
+2. CIA Triad (Core Principles of Cyber Security)
+
+The CIA Triad represents the three fundamental objectives of cybersecurity:
+
+a) Confidentiality
+
+Ensures that sensitive information is accessible only to authorized users.
+
+Examples:
+
+Banking applications protecting account details
+
+Encrypted WhatsApp messages preventing third-party access
+
+Threats: Data breaches, phishing, unauthorized access
+
+b) Integrity
+
+Ensures that data remains accurate, complete, and unaltered unless authorized.
+
+Examples:
+
+Transaction amounts not being modified during online payments
+
+Logs remaining tamper-proof for audits
+
+Threats: SQL injection, data manipulation, malware
+
+c) Availability
+
+Ensures that systems and data are accessible when required.
+
+Examples:
+
+Online banking services being available 24/7
+
+Email services functioning without downtime
+
+Threats: DDoS attacks, server failures, ransomware
+
+3. Types of Cyber Attackers
+a) Script Kiddies
+
+Low-skill attackers
+
+Use ready-made tools and exploits
+
+Target poorly secured systems
+
+b) Insider Threats
+
+Employees or trusted individuals
+
+Can be intentional or accidental
+
+Very dangerous due to internal access
+
+c) Hacktivists
+
+Ideologically motivated attackers
+
+Aim to spread political or social messages
+
+Often use defacement or data leaks
+
+d) Nation-State Actors
+
+Highly skilled and well-funded
+
+Conduct espionage, cyber warfare
+
+Target governments, defense, critical infrastructure
+
+4. Attack Surface
+
+An attack surface is the sum of all points where an attacker can try to enter or extract data from a system.
+
+Common Attack Surfaces:
+
+Web applications
+
+Mobile applications
+
+APIs
+
+Networks (Wi-Fi, routers, firewalls)
+
+Cloud infrastructure
+
+User endpoints (laptops, mobiles)
+
+Larger attack surface = Higher risk
+
+5. OWASP Top 10 (Why It Matters)
+
+OWASP Top 10 is a list of the most critical web application security risks.
+
+It is important because:
+
+Covers real-world, frequently exploited vulnerabilities
+
+Used as an industry security baseline
+
+Helps developers and security teams prioritize fixes
+
+Examples of OWASP Risks:
+
+Injection attacks
+
+Broken authentication
+
+Sensitive data exposure
+
+Security misconfigurations
+
+6. Mapping Daily Applications to Attack Surfaces
+Application	Possible Attack Surface
+Email	Phishing, malware attachments
+WhatsApp	Account takeover, device compromise
+Banking App	Insecure APIs, credential theft
+Social Media	Credential stuffing, session hijacking
+7. Data Flow in an Application
+
+Typical Data Flow:
+
+User → Application → Server → Database → Server → Application → User
+
+Points Where Attacks Can Occur:
+
+User input (Injection attacks)
+
+Application logic (Broken authentication)
+
+Network communication (Man-in-the-Middle)
+
+Server configuration (Misconfigurations)
+
+Database access (Unauthorized data access)
+
+8. Vulnerability vs Threat vs Risk
+
+Vulnerability: A weakness in a system
+
+Threat: A potential cause of harm
+
+Risk: The likelihood that a threat will exploit a vulnerability
+
+Example:
+Unpatched server (vulnerability) + hacker (threat) = data breach risk
+
+9. Conclusion
+
+This task provides a strong foundation in cybersecurity by introducing essential concepts such as the CIA triad, attacker profiles, attack surfaces, and OWASP Top 10 risks. Understanding how data flows through applications and identifying potential attack points helps in thinking like both a defender and an attacker. These fundamentals are crucial for any cybersecurity professional and form the base for advanced security practices.
