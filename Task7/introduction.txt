@@ -1,0 +1,32 @@
+Task 7: Web Application Vulnerability Testing
+--------------------------------------------
+
+Objective:
+The objective of this task is to understand common web application vulnerabilities and learn how they are identified using web application security testing tools. The task focuses on practical exposure to OWASP Top 10 vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS).
+
+Web applications are widely used and frequently targeted by attackers due to improper input validation, insecure coding practices, and misconfigurations. Identifying and mitigating vulnerabilities is essential to protect sensitive data and ensure application security.
+
+OWASP Top 10:
+The OWASP Top 10 is a list of the most critical web application security risks. It helps developers and security professionals understand common weaknesses and prioritize security controls.
+
+SQL Injection (SQLi):
+SQL Injection is a vulnerability where an attacker manipulates input fields to execute malicious SQL queries. This can allow attackers to read, modify, or delete database data.
+
+Cross-Site Scripting (XSS):
+XSS occurs when an application allows untrusted user input to be executed as code in a user’s browser. This can lead to session hijacking, defacement, or data theft.
+
+Request Interception:
+Intercepting HTTP requests allows security testers to analyze parameters, headers, and payloads. Tools like Burp Suite act as a proxy between the browser and the server to observe and modify traffic.
+
+Application Responses:
+Analyzing server responses helps identify errors, unexpected behavior, or security weaknesses that indicate vulnerabilities.
+
+Mitigation Techniques:
+- Input validation and sanitization
+- Use of prepared statements
+- Output encoding
+- Secure authentication mechanisms
+- Regular security testing
+
+Conclusion:
+Web application vulnerability testing helps identify security flaws before attackers exploit them. Understanding vulnerabilities like SQL Injection and XSS is fundamental for building and maintaining secure web applications.
