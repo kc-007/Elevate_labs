@@ -1,0 +1,33 @@
+Task 9: Network Vulnerability Scanning
+-------------------------------------
+
+Objective:
+The objective of this task is to understand network vulnerability scanning and how open ports, running services, and exposed systems can introduce security risks. The task focuses on network reconnaissance using scanning tools to identify potential weaknesses in a network.
+
+Network vulnerability scanning is a critical step in cybersecurity. Attackers often start by scanning networks to discover live hosts, open ports, and services before launching further attacks.
+
+Port Scanning:
+Port scanning is the process of identifying open, closed, or filtered ports on a system. Open ports indicate services that are accessible from the network.
+
+Open vs Closed Ports:
+- Open ports are actively accepting connections and can be targeted by attackers.
+- Closed ports do not accept connections and reduce the attack surface.
+
+Service Enumeration:
+Service enumeration involves identifying which services are running on open ports and their versions. Outdated or misconfigured services may contain vulnerabilities.
+
+Operating System Detection:
+OS detection attempts to identify the operating system running on a target system. This helps attackers and defenders understand potential system-level vulnerabilities.
+
+Vulnerability Analysis:
+Once ports and services are identified, known vulnerabilities associated with those services can be analyzed. Exposed services increase the risk of exploitation if not properly secured.
+
+Importance of Network Scanning:
+- Helps identify unnecessary exposed services
+- Assists in hardening network security
+- Enables proactive vulnerability management
+- Reduces attack surface
+
+Conclusion:
+Network vulnerability scanning provides visibility into network exposure and helps identify security risks early. Regular scanning and proper remediation are essential for maintaining a secure network environment.
+
