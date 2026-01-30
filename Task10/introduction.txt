@@ -1,0 +1,42 @@
+Task 10: Firewall Configuration & Testing
+----------------------------------------
+
+Objective:
+The objective of this task is to understand firewall concepts and learn how firewalls are configured, tested, and monitored to protect systems and networks. Firewalls act as a security control that filters network traffic based on predefined rules.
+
+Firewalls are a critical component of network security and are used to prevent unauthorized access while allowing legitimate communication.
+
+What is a Firewall:
+A firewall is a security system that monitors and controls incoming and outgoing network traffic based on security rules. It acts as a barrier between trusted and untrusted networks.
+
+Types of Firewalls:
+
+1. Stateful Firewall
+A stateful firewall tracks the state of active connections and makes decisions based on the context of traffic. It is more secure and commonly used.
+
+2. Stateless Firewall
+A stateless firewall filters traffic based only on predefined rules without tracking connection state. It is faster but less secure.
+
+Inbound and Outbound Rules:
+- Inbound rules control traffic coming into the system.
+- Outbound rules control traffic leaving the system.
+
+Firewall Rules:
+Firewall rules define which traffic is allowed or denied based on:
+- IP address
+- Port number
+- Protocol
+- Direction (inbound or outbound)
+
+Firewall Logs:
+Firewall logs record allowed and blocked traffic. Logs are useful for monitoring suspicious activity and troubleshooting connectivity issues.
+
+Limitations of Firewalls:
+Firewalls cannot stop all attacks. They do not protect against:
+- Application-level vulnerabilities
+- Insider threats
+- Malware delivered through allowed traffic
+
+Conclusion:
+Firewalls play a crucial role in network defense by controlling traffic flow and reducing the attack surface. Proper configuration, testing, and monitoring are essential for effective firewall protection.
+
